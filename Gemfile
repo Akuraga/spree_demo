@@ -50,6 +50,7 @@ end
 group :production, :staging do
   gem 'rails_12factor'
   gem 'rack-timeout'
+  gem 'httparty'
 end
 
 # file uploades & assets
