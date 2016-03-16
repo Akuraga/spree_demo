@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+ruby '2.1.5'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.15'
@@ -72,7 +73,7 @@ gem 'sidekiq'
 gem 'sinatra', require: nil
 
 # Spree gems
-gem 'spree', github: 'spark-solutions/spree', branch: '2-2-rails41'
+gem 'spree', github: 'godaddy/spree', branch: '2-2-rails41'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '2-2-stable'
 gem 'spree_auth_devise', github: 'godaddy/spree_auth_devise', branch: '2-2-rails41'
 
