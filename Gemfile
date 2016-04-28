@@ -73,6 +73,7 @@ gem 'sidekiq'
 gem 'sinatra', require: nil
 
 # Spree gems
-gem 'spree', github: 'spree/spree', branch: 'master'
-gem 'spree_gateway', github: 'spree/spree_gateway', branch: 'master'
-gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: 'master'
+gem 'spree', github: 'spree/spree', branch: '3-1-stable'
+gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-1-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '3-1-stable'
+
