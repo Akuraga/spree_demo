@@ -73,7 +73,6 @@ gem 'sidekiq'
 gem 'sinatra', require: nil
 
 # Spree gems
-gem 'spree', '~> 3.1.0.rc2'
+gem 'spree', '~> 3.1.0.rc4'
 gem 'spree_auth_devise', '~> 3.1.0.rc2'
 gem 'spree_gateway', '~> 3.1.0.rc2'
-
